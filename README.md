@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Weather App
 
-## Available Scripts
+An application to view the current weather for those interested in the city. An application written in React.
 
-In the project directory, you can run:
+Go **[here](https://ttargonski.github.io/weather-app/index.html)** for live demo.
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following software is required to be installed on your system:
 
-### `npm run build`
+- Node 8.x
+- Npm 3.x
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Type the following commands in the terminal to verify your node and npm versions
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+node -v
+npm -v
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install
 
-### `npm run eject`
+Follow the following steps to get development environment running.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone _'weather-app'_ repository from GitHub
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```bash
+  git clone https://github.com/ttargonski/weather-app.git
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  _OR USING SSH_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ```bash
+  git clone git@github.com:drminnaar/react-calculator-standard.git
+  ```
 
-## Learn More
+- Install node modules
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ```bash
+  cd weather-app
+  npm install
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Build
 
-### Code Splitting
+- Build application
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  This command will also run ESLint as part of build process.
 
-### Analyzing the Bundle Size
+  ```bash
+  npm run build
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Run
 
-### Making a Progressive Web App
+- Run start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+  This will run the _'serve'_ npm task
 
-### Advanced Configuration
+  ```bash
+  npm start
+  ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Authors
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **Tomasz Targoński** - *Initial work* - [ttargonski](https://github.com/ttargonski)
+```
