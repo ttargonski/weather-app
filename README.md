@@ -37,7 +37,7 @@ Follow the following steps to get development environment running.
   _OR USING SSH_
 
   ```bash
-  git clone git@github.com:drminnaar/react-calculator-standard.git
+  git clone git@github.com:ttargonski/weather-app.git
   ```
 
 - Install node modules
@@ -67,11 +67,11 @@ Follow the following steps to get development environment running.
   npm start
   ```
 
-```
+
 
 ---
 
 ## Authors
 
 * **Tomasz Targoński** - *Initial work* - [ttargonski](https://github.com/ttargonski)
-```
+
