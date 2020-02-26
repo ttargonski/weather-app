@@ -1,6 +1,7 @@
 # React Weather App
 
-An application to view the current weather for those interested in the city. An application written in React.
+An application to view the current weather for those interested in the city. 
+Application created using React and Scss.
 
 Go **[here](https://ttargonski.github.io/weather-app/index.html)** for live demo.
 
